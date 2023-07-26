@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/VLights/Scenes/high precision buffer.unity
+- path: Assets/GDS2 Assignment 01 Trash Game.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
