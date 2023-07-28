@@ -330,10 +330,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Dreamteck.Splines.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Dreamteck.Utilities.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Dreamteck.Utilities.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/FMODUnity.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/FMODUnityEditor.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/FMODUnityResonance.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/FMODUnityResonanceEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
@@ -375,15 +371,6 @@
 "Assets/SplineMesh/Scripts/Utils/CameraUtility.cs"
 "Assets/SplineMesh/Scripts/Utils/MeshUtility.cs"
 "Assets/SplineMesh/Scripts/Utils/UOUtility.cs"
-"Assets/VLights/Scripts/Demo/MouseOrbitDemo.cs"
-"Assets/VLights/Scripts/PostProcess/VLightInterleavedSampling.cs"
-"Assets/VLights/Scripts/Util/GenerateNoiseTexture.cs"
-"Assets/VLights/Scripts/Util/ShaderLibrary.cs"
-"Assets/VLights/Scripts/Util/VLightGeometryUtil.cs"
-"Assets/VLights/Scripts/Util/VLightShaderUtil.cs"
-"Assets/VLights/Scripts/VLight/VLight.cs"
-"Assets/VLights/Scripts/VLight/VLightHelper.cs"
-"Assets/VLights/Scripts/VLight/VLightManager.cs"
 -langversion:9.0
 
 /deterministic

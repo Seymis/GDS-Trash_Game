@@ -339,10 +339,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Dreamteck.Splines.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Dreamteck.Utilities.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Dreamteck.Utilities.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/FMODUnity.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/FMODUnityEditor.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/FMODUnityResonance.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/FMODUnityResonanceEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
@@ -360,10 +356,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/SplineMesh/Scripts/Editor/SplineEditor.cs"
 "Assets/SplineMesh/Scripts/Editor/SplineExtrusionEditor.cs"
-"Assets/VLights/Editor/VolumeLightAbout.cs"
-"Assets/VLights/Editor/VolumeLightCreator.cs"
-"Assets/VLights/Editor/VolumeLightManagerEditor.cs"
-"Assets/VLights/Editor/VolumeLightSlicedBasedEditor.cs"
 -langversion:9.0
 
 /deterministic
