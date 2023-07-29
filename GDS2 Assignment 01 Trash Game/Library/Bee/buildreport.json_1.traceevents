@@ -1,0 +1,499 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1690637236354389, "dur": 6271004, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690637236354778, "dur": 4574, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690637236359354, "dur": 64470, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690637236423825, "dur": 778503, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690637237202330, "dur": 5412519, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690637242614851, "dur": 10542, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690637242625854, "dur": 16, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1690637236948305, "dur": 233873, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1690637236949495, "dur": 54365, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1690637237159270, "dur": 6728, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1690637237166002, "dur": 16166, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1690637237166845, "dur": 14548, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1690637237187975, "dur": 1681, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1690637237186872, "dur": 2819, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690637242625969, "dur": 683, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1690637237258221, "dur":1157, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637237259385, "dur":65, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1690637237259462, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1690637237259479, "dur":445, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1690637237259986, "dur":780, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637237260766, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637242597018, "dur":87, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637242597105, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637242597123, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637242597125, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637242597135, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637242597138, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637242597146, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637242597148, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637242597157, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637242597182, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637242597196, "dur":1993, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1690637237260538, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237260771, "dur":2353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237263125, "dur":26350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690637237289480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237289489, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690637237290458, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1690637237290498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237290504, "dur":56213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1690637237346738, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1690637237346768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237347193, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1690637237348814, "dur":95946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690637237444764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237444774, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690637237445781, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game.exe" }}
+,{ "pid":12345, "tid":1, "ts":1690637237446436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237446441, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game.exe" }}
+,{ "pid":12345, "tid":1, "ts":1690637237448019, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1690637237448108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237448435, "dur":43840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1690637237492295, "dur":216789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637237709090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237709345, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637237710331, "dur":201834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637237912172, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237912182, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637237913500, "dur":12431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637237925938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237925948, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637237928342, "dur":2541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637237930889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237930897, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637237932713, "dur":34621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637237967341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237967360, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637237968644, "dur":13015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637237981669, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637237981684, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637237983070, "dur":39677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238022754, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238022765, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238024055, "dur":185372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238209434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238209444, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238210835, "dur":51082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238261923, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238261936, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238262990, "dur":61417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238324416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238324430, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238325821, "dur":73653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238399484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238399497, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238400840, "dur":111954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238512803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238512816, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238515000, "dur":26216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238541222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238541232, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238542435, "dur":131318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238673759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238673767, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238674928, "dur":14576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238689514, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238689528, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238690782, "dur":16050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238706838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238706848, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238708175, "dur":25700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238733882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238733892, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238735097, "dur":40694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238775798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238775808, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238776991, "dur":13226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238790223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238790232, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238791333, "dur":12449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238803791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238803804, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238805067, "dur":24313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238829386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238829395, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238830428, "dur":13406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238843839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238843846, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238845765, "dur":6992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238852764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238852775, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238853938, "dur":85346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238939290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238939300, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238940536, "dur":12179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238952719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238952727, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238954217, "dur":6020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238960241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238960250, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238961235, "dur":34561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238995803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637238995813, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637238996962, "dur":22320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637239019288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637239019297, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637239020349, "dur":55653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637239076008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637239076016, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637239077123, "dur":24293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637239101423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637239101431, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637239102537, "dur":310827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637239413370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637239413378, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637239415877, "dur":284958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637239700843, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637239700854, "dur":507853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637240208732, "dur":3319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637240212057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637240212067, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637240213346, "dur":146531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637240359883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637240359891, "dur":2474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637240362386, "dur":396457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637240758848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637240758857, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637240762070, "dur":999471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637241761547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637241761556, "dur":3222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637241764796, "dur":65872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Dreamteck.Utilities.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637241830675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637241830684, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Dreamteck.Utilities.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690637241831946, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1690637241832118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637241832448, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1690637241833519, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1690637241833538, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637241833557, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1690637241834857, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690637241834874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637241834880, "dur":3786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690637241838684, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690637241838704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637241838711, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690637241840382, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690637241840430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637241840436, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690637241841720, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690637241841742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637241841749, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690637241842717, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690637241842734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637241842740, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690637241843781, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1690637241843801, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637241843807, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1690637241844986, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690637241845007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637241845013, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690637241846122, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1690637241846141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637241846147, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1690637241847069, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1690637241847212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690637241847218, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1690637241848285, "dur":748701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637237260632, "dur":143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637237260775, "dur":2332, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637237263115, "dur":17852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1690637237280972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637237281286, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1690637237282250, "dur":65755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1690637237348010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637237348019, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1690637237349130, "dur":975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1690637237350118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637237350127, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1690637237351246, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1690637237351279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637237351286, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1690637237352416, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1690637237352448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637237352454, "dur":23892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1690637237376364, "dur":1919552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637239295922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637239295967, "dur":6115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637239302103, "dur":384220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637239686358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637239686368, "dur":522382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240208767, "dur":32671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240241449, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240241465, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240242956, "dur":36116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240279078, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240279086, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240280301, "dur":7328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240287635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240287645, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240288810, "dur":39176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240327993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240328003, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240329304, "dur":16388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240345699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240345708, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240346849, "dur":1947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240348803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240348812, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240349895, "dur":25933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240375834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240375843, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240376953, "dur":26422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240403384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240403398, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240404866, "dur":70170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240475042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240475051, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240476303, "dur":49966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240526274, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240526283, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240527689, "dur":80584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240608280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240608289, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240610292, "dur":32840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240643142, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240643156, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240644758, "dur":31137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240675901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240675909, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240677124, "dur":27340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240704470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240704480, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240705804, "dur":20919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240726729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240726738, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240728015, "dur":17821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240745843, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240745853, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240747009, "dur":84476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240831495, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637240831510, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637240833553, "dur":398672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637241232231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637241232239, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637241235125, "dur":455450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637241690581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637241690617, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637241691902, "dur":809847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637242501758, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690637242501771, "dur":4425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690637242506214, "dur":90735, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690637237260681, "dur":97, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690637237260778, "dur":2330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690637237263115, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1690637237263161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690637237264576, "dur":37896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1690637237302488, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1690637237302514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690637237302820, "dur":14417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1690637237317254, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1690637237317282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690637237317299, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1690637237318502, "dur":29556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1690637237348062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690637237348068, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1690637237349067, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1690637237349108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690637237349129, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1690637237350370, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1690637237350411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690637237350418, "dur":33345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1690637237383786, "dur":5194259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690637242578050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690637242578057, "dur":18841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690637242596923, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1690637242596927, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237260768, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237260769, "dur":2336, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237263115, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1690637237263120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237263974, "dur":345, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1690637237264324, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1690637237264375, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237265226, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1690637237267515, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1690637237267544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237267589, "dur":38164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1690637237305771, "dur":24507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1690637237330282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237330313, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1690637237331261, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1690637237331299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237331306, "dur":36785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1690637237368120, "dur":46208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237414333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237414803, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237416230, "dur":387283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1690637237803522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237803533, "dur":2386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1690637237805940, "dur":95914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237901860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237901904, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237903191, "dur":16797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237919995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237920004, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237921155, "dur":9585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237930746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237930779, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237932768, "dur":27217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237959996, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237960011, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237961566, "dur":7953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237969524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237969534, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237971001, "dur":13428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237984466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637237984476, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637237985815, "dur":27290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238013112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238013120, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238014415, "dur":20449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238034870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238034879, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238036010, "dur":124425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238160441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238160451, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238161798, "dur":203195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238364998, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238365006, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238366182, "dur":296325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238662514, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238662524, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238664982, "dur":1223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238666211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238666220, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238667331, "dur":12983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238680320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238680327, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238682063, "dur":11964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238694033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238694041, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238695242, "dur":45343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238740590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238740597, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238741593, "dur":20855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238762454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238762463, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238763599, "dur":36483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238800087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238800095, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238801249, "dur":30143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238831396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238831403, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238832320, "dur":12337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238844663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238844672, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238846088, "dur":83203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238929297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238929306, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238930426, "dur":16340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238946772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238946781, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238948433, "dur":10146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238958585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238958621, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238959839, "dur":31851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238991696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637238991705, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637238993005, "dur":11798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239004808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637239004817, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239005881, "dur":57039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239062926, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637239062965, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239064220, "dur":1424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239065650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637239065659, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239067010, "dur":20808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239087823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637239087832, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239088983, "dur":30388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239119378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637239119388, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239120607, "dur":156741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239277355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637239277394, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239278540, "dur":60878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239339424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637239339433, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239340568, "dur":25002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239365577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637239365586, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239366750, "dur":31330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239398087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637239398097, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239399296, "dur":135073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637239534375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637239534383, "dur":673902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240208311, "dur":21163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240229479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637240229488, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240231588, "dur":26014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240257609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637240257619, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240258977, "dur":38452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240297436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637240297446, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240298806, "dur":4084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240302896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637240302905, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240304421, "dur":1244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240305671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637240305680, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240306826, "dur":41075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240347907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637240347917, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240349152, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240349612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637240349619, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240350684, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240351074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637240351082, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240352089, "dur":555938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240908033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637240908041, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240909285, "dur":22311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240931606, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637240931620, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637240933036, "dur":235030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241168071, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637241168080, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241171064, "dur":384135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241555205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637241555214, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241556619, "dur":115591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241672216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637241672224, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241673992, "dur":49983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241723984, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637241723997, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241725282, "dur":67630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241792922, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637241792938, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241794559, "dur":24594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Dreamteck.Splines.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241819159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637241819167, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Dreamteck.Splines.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241820438, "dur":13245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241833687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637241833694, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690637241834836, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1690637241834858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637241834864, "dur":4182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1690637241839062, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1690637241839209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637241839215, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1690637241840191, "dur":107738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1690637241948031, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690637241948040, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Games/GDS-Trash_Game/GDS2 Assignment 01 Trash Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1690637241949812, "dur":647158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690637242601062, "dur":2673, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1690637242626722, "dur": 916, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690637242625841, "dur": 1826, "ph": "X", "name": "Write chrome-trace events", "args": {} },
